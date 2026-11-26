@@ -1,4 +1,5 @@
-import type { Product } from "../types";
+import type { Product } from "../types.ts";
+export type { Product };
 
 export const products: Product[] = [
   {
@@ -34,13 +35,13 @@ export const products: Product[] = [
   {
     id: 6, name: "Đèn bàn Warm Light", price: 389000, oldPrice: 459000,
     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900&q=85",
-    category: "Gia dụng", stock: 6, rating: 4.6, reviews: 39, badge: "Ưu đãi",
+    category: "Gia dụng", stock: 4, rating: 4.6, reviews: 39, badge: "Ưu đãi",
     description: "Đèn bàn ánh sáng ấm, tạo cảm giác thư thái cho góc đọc sách hoặc bàn làm việc."
   },
   {
     id: 7, name: "Balo Daily Carry", price: 429000,
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=900&q=85",
-    category: "Phụ kiện", stock: 7, rating: 4.7, reviews: 62,
+    category: "Phụ kiện", stock: 3, rating: 4.7, reviews: 62,
     description: "Balo gọn nhẹ với nhiều ngăn tiện dụng, phù hợp cho lịch trình năng động."
   },
   {
